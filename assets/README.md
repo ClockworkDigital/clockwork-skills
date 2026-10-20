@@ -1,8 +1,8 @@
 # Brand assets
 
-`clockwork-logo.svg` is the horizontal Clockwork logo from the [Clockwork website](https://www.clockworkmedia.co.za/).
+`clockwork-symbol.png` is the standalone Clockwork symbol from the [Clockwork website](https://www.clockworkmedia.co.za/).
 
-- Source: [original SVG](https://www.clockworkmedia.co.za/wp-content/uploads/2026/07/logo_Horizontal.svg)
+- Source: [original PNG](https://www.clockworkmedia.co.za/wp-content/uploads/2026/07/Logo-Animation-dark.png)
 - Retrieved: 2026-10-20
-- Modification: added a white background so the dark logo remains readable in both light and dark README themes. Logo paths and colors are unchanged.
+- Modifications: none.
 - The Clockwork brand asset is separate from the MIT licenses covering imported skills.

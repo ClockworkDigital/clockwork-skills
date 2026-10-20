@@ -1,5 +1,5 @@
 <a href="https://www.clockworkmedia.co.za/">
-  <img src="assets/clockwork-logo.svg" alt="Clockwork" width="360">
+  <img src="assets/clockwork-symbol.png" alt="Clockwork symbol" width="96">
 </a>
 
 # Clockwork Skills
