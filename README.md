@@ -1,3 +1,7 @@
+<a href="https://www.clockworkmedia.co.za/">
+  <img src="assets/clockwork-logo.svg" alt="Clockwork" width="360">
+</a>
+
 # Clockwork Skills
 
 A curated collection of agent skills discovered around the web and created internally at Clockwork, plus companion tools and rulesets.
