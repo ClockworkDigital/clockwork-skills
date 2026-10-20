@@ -1,5 +1,9 @@
 <a href="https://www.clockworkmedia.co.za/">
-  <img src="assets/clockwork-symbol.png" alt="Clockwork symbol" width="96">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/clockwork-symbol-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/clockwork-symbol-light.svg">
+    <img src="assets/clockwork-symbol-light.svg" alt="Clockwork symbol" width="96" height="96">
+  </picture>
 </a>
 
 # Clockwork Skills

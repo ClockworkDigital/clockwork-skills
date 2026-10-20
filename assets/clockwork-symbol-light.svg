@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" width="260" height="260">
+  <title>Clockwork symbol</title>
+  <g fill="#07091B">
+    <rect x="120" y="0" width="20" height="30" transform="rotate(0 130 130)"/>
+    <rect x="120" y="0" width="20" height="30" transform="rotate(30 130 130)"/>
+    <rect x="120" y="0" width="20" height="30" transform="rotate(60 130 130)"/>
+    <rect x="120" y="0" width="20" height="30" transform="rotate(90 130 130)"/>
+    <rect x="120" y="0" width="20" height="30" transform="rotate(120 130 130)"/>
+    <rect x="120" y="0" width="20" height="30" transform="rotate(150 130 130)"/>
+    <rect x="120" y="0" width="20" height="30" transform="rotate(180 130 130)"/>
+    <rect x="120" y="0" width="20" height="30" transform="rotate(210 130 130)"/>
+    <rect x="120" y="0" width="20" height="30" transform="rotate(240 130 130)"/>
+    <rect x="120" y="0" width="20" height="30" transform="rotate(270 130 130)"/>
+    <rect x="120" y="0" width="20" height="30" transform="rotate(300 130 130)"/>
+    <rect x="120" y="0" width="20" height="30" transform="rotate(330 130 130)"/>
+  </g>
+</svg>
