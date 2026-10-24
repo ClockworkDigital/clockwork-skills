@@ -1,0 +1,52 @@
+{
+  "base_branch": "main",
+  "remote": "origin",
+  "queue_label": "factory",
+  "max_rounds": 3,
+  "agent_timeout_seconds": 1800,
+  "check_timeout_seconds": 900,
+  "setup": [],
+  "checks": [],
+  "protected_paths": [
+    "factory/*",
+    ".agents/*",
+    ".codex/*",
+    "AGENTS.md",
+    ".github/workflows/*",
+    "AGENT.md",
+    "replit.md"
+  ],
+  "high_risk_roles": {
+    "spec": {
+      "model": "gpt-6-astra",
+      "effort": "high"
+    }
+  },
+  "roles": {
+    "intake": {
+      "model": "gpt-6.1-sol",
+      "effort": "low"
+    },
+    "spec": {
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    "build": {
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    "security": {
+      "model": "gpt-6-astra",
+      "effort": "high"
+    },
+    "ui": {
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    }
+  },
+  "risk_guidance": ""
+}
