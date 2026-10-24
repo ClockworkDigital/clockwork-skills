@@ -26,6 +26,7 @@ External skills are vendored at pinned upstream revisions. Each folder includes 
 
 | Skill | Purpose | Origin | Source | Review status |
 | --- | --- | --- | --- | --- |
+| [factory-claude](skills/internal/factory-claude/SKILL.md) | Run the Claude Code factory with Sonnet/Opus routing and a read-only dashboard. | Internal, Clockwork | [Maintenance notes](skills/internal/factory-claude/NOTES.md) | Automated tests; live Claude run unverified |
 | [factory](skills/internal/factory/SKILL.md) | Run the Codex issue-to-reviewed-PR factory and its read-only dashboard. | Internal, Clockwork | [Maintenance notes](skills/internal/factory/NOTES.md) | [26 automated tests; prior dashboard browser check](skills/internal/factory/NOTES.md#validation) |
 | [unslop](skills/external/unslop/SKILL.md) | Remove AI writing patterns from prose. | External, pstack / Lauren Tan | [cursor/plugins](https://github.com/cursor/plugins/tree/88d47514b82e7c44f00f2b2a72ff6dd12158038c/pstack/skills/unslop) | Reviewed |
 | [grilling](skills/external/grilling/SKILL.md) | Stress-test a plan, decision, or idea through questions. | External, Matt Pocock | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/productivity/grilling) | Reviewed |
@@ -107,6 +108,7 @@ Start a fresh session in the project you want to work on. In Codex CLI or the ID
 
 | Task | Codex prompt | Claude Code command |
 | --- | --- | --- |
+| Run the Claude factory | `$factory-claude issue 1` (requires Claude CLI) | `/factory-claude issue 1` |
 | Run the software factory | `$factory issue 1` | Requires Codex CLI; see skill prerequisites |
 | Review a plan | `$grilling Stress-test this plan…` | `/grilling Stress-test this plan…` |
 | Diagnose a bug | `$diagnosing-bugs Investigate this failure…` | `/diagnosing-bugs Investigate this failure…` |

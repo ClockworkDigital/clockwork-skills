@@ -1,0 +1,55 @@
+{
+  "base_branch": "main",
+  "remote": "origin",
+  "queue_label": "factory",
+  "max_rounds": 3,
+  "agent_timeout_seconds": 1800,
+  "check_timeout_seconds": 900,
+  "setup": [],
+  "checks": [],
+  "protected_paths": [
+    "factory/*",
+    ".agents/*",
+    ".codex/*",
+    "AGENTS.md",
+    ".github/workflows/*",
+    "AGENT.md",
+    "replit.md",
+    ".claude/*",
+    "CLAUDE.md"
+  ],
+  "high_risk_roles": {
+    "spec": {
+      "model": "opus",
+      "effort": "high"
+    }
+  },
+  "roles": {
+    "intake": {
+      "model": "sonnet",
+      "effort": "low"
+    },
+    "spec": {
+      "model": "sonnet",
+      "effort": "medium"
+    },
+    "build": {
+      "model": "sonnet",
+      "effort": "high"
+    },
+    "review": {
+      "model": "sonnet",
+      "effort": "high"
+    },
+    "security": {
+      "model": "opus",
+      "effort": "high"
+    },
+    "ui": {
+      "model": "sonnet",
+      "effort": "medium"
+    }
+  },
+  "risk_guidance": "",
+  "agent": "claude"
+}
