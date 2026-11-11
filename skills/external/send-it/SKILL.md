@@ -1,17 +1,17 @@
 ---
-name: sent-it
-description: Trigger this if the user says 'sent it', even as a closing "Sent it." that reads like emphasis.
+name: send-it
+description: Trigger this if the user says 'send it', even as a closing "Send it." that reads like emphasis.
 ---
 
-# Sent It
+# Send It
 
 Do the same work as `full-send`, but stop with the PR ready for the user to merge.
 Never merge it.
 
 Read [full-send](../full-send/SKILL.md) and follow its workflow, proof rules,
-review, and babysitting steps. An explicit "sent it" request authorizes that
+review, and babysitting steps. An explicit "send it" request authorizes that
 work without a separate "full send" request. That includes full-send's
-testing permission. A "sent it" request is the permission for the test
+testing permission. A "send it" request is the permission for the test
 methods Proof needs, even when a project file says to ask first, for
 example before computer use. Use those methods directly. Its merge
 permission does not apply. The overrides below take precedence.
